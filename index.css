@@ -1,0 +1,175 @@
+.header{
+	display: flex;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 0%;
+}
+.menu-items{
+	margin: 9% 3% 2% 5%;
+}
+.menu-items li{
+	margin-left: 20px;
+	display: inline-block;
+	padding: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+.main-body{
+
+}
+hr{
+	width: 90%;
+}
+.slideshow{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.slideshow img{
+	border-radius: 20px;
+}
+.facilities{
+	margin: 3% 2% 3% 2%;
+}
+.games
+{
+	margin: 3% 2% 3% 2%;
+}
+.IOdoor{
+  	margin-left:30px;
+  	margin-top:40px;
+  	text-shadow:0 0 12px 0 #025e97;
+}
+.Iimage img
+{
+  	width:400px;
+  	height:260px;
+  	margin:10px 0px 10px 15px;
+  	border-radius: 20px;
+  	opacity: 1;
+}
+.Iimage img:hover{
+  	opacity: 0.4;
+}
+.Iimage
+{
+  	margin:20px 20px 20px 10px;
+}
+.games button{
+  	width:300px;
+  	border-radius:30px;
+  	height:40px;
+  	color:white;
+  	margin-left:15px;
+  	margin-top:20px;
+    border:none;
+    background-color: #62c6ff;
+    box-shadow: 0 5px 0 #5ec0ea;
+}
+#testimonials{
+	float: center;
+	margin: 3% 2% 3% 2%;
+}
+#contact-us{
+	margin: 3% 2% 2% 3%;
+}
+.contact-us-container{
+	margin: 0% 20% 0% 20%;
+	background-color: #f5f5f5;
+	border-radius: 20px;
+	box-shadow:0 0 15px 0 #025e97;
+}
+.contact-us-container input[placeholder]{
+	text-align: center;
+	color: #6f7074;
+}
+.contact-us-container button{
+	padding: 16px 60px 16px 60px;
+	border-radius: 100px;
+	border: none;
+	background-color: #62c6ff;
+	color: white;
+	box-shadow: 0 5px 0 #5ec0ea;
+}
+#contact-us form input{
+	padding: 15px 400px 15px 0px;
+	border-radius: 20px;
+	border: 10px;
+	outline: none;
+	border:1px solid #777;
+}
+#contact-us form textarea{
+	padding-top: 15px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	border:1px solid #777;
+}
+
+.footer{
+	display: flex;
+	background-color: #37383e;
+	padding: 20px 20px 20px 20px;
+	width: 100%;
+	border-radius: 50px 50px 0px 0px;
+}
+.footer-info-1{
+	margin: 2% 3% 3% 5%;
+}
+.footer-info-1 p{
+	color: white;
+}
+.footer-info-2{
+	margin: 3% 3% 3% 12%;
+}
+.footer-info-2 p{
+	color: white;
+}
+.footer-details{
+	display: flex;
+}
+.subscribe input{
+	padding: 16px 320px 16px 25px;
+	border-radius: 100px;
+	background-color: #4b4c52;
+	border: none;
+}
+.subscribe input[placeholder]{
+	font-size: 15px;
+	color: white;
+	outline: none;
+}
+.subscribe button{
+	margin-left: 15px;
+	padding: 16px 40px 16px 40px;
+	border-radius: 100px;
+	border: none;
+	background-color: #62c6ff;
+	color: white;
+	box-shadow: 0 5px 0 #5ec0ea;
+}
+.phone-address{
+	margin: 8% 3% 3% 0%;
+}
+.phone-address td{
+	font-size: 20px;
+	color: #c6c6c8;
+}
+.get-social{
+	margin: 8% 3% 3% 8%;
+}
+.icons{
+	display: inline-flex;
+}
+.icons div{
+	margin-left: 15px;
+}
+#follow-us{
+	font-size: 20px;
+	color: #c6c6c8;
+}
+#company-details{
+	font-size: 20px;
+	color: #c6c6c8;
+}
+button{
+	outline: 0;
+}
