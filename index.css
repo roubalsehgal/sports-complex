@@ -4,6 +4,9 @@
 	margin-right: 2%;
 	margin-bottom: 0%;
 }
+.logo{
+	margin: 1%;
+}
 .menu-items{
 	margin: 9% 3% 2% 5%;
 }
@@ -20,14 +23,17 @@ hr{
 	width: 90%;
 }
 .slideshow{
-	margin-left: 2%;
-	margin-right: 2%;
+	margin: 0% 2% 3% 2%;
 }
 .slideshow img{
 	border-radius: 20px;
 }
-.facilities{
+#facilities{
 	margin: 3% 2% 3% 2%;
+}
+.col-sm-4 img{
+	height: 250px;
+	widows: 250px;
 }
 .games
 {
@@ -36,7 +42,6 @@ hr{
 .IOdoor{
   	margin-left:30px;
   	margin-top:40px;
-  	text-shadow:0 0 12px 0 #025e97;
 }
 .Iimage img
 {
@@ -47,13 +52,14 @@ hr{
   	opacity: 1;
 }
 .Iimage img:hover{
-  	opacity: 0.4;
+  	opacity: 0.6;
 }
 .Iimage
 {
   	margin:20px 20px 20px 10px;
 }
 .games button{
+	margin-bottom: 5%;
   	width:300px;
   	border-radius:30px;
   	height:40px;
@@ -63,6 +69,9 @@ hr{
     border:none;
     background-color: #62c6ff;
     box-shadow: 0 5px 0 #5ec0ea;
+}
+.games button:hover{
+	background-color: #5ec0ea;
 }
 #testimonials{
 	float: center;
@@ -89,6 +98,9 @@ hr{
 	color: white;
 	box-shadow: 0 5px 0 #5ec0ea;
 }
+.contact-us-container button:hover{
+	background-color: #5ec0ea;
+}
 #contact-us form input{
 	padding: 15px 400px 15px 0px;
 	border-radius: 20px;
@@ -96,12 +108,18 @@ hr{
 	outline: none;
 	border:1px solid #777;
 }
+#contact-us form input:hover{
+	box-shadow:0 0 15px 0 #025e97;
+}
 #contact-us form textarea{
 	padding-top: 15px;
 	border-radius: 20px;
 	border: none;
 	outline: none;
 	border:1px solid #777;
+}
+#contact-us form textarea:hover{
+	box-shadow:0 0 15px 0 #025e97;
 }
 
 .footer{
